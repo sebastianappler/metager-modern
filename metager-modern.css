@@ -1,0 +1,69 @@
+/* ==UserStyle==
+@name           Metager Modern
+@namespace      https://github.com/sebastianappler
+@version        1.0.0
+@description    A stylus theme to make MetaGer.org look like a modern search engine
+@author         Sebastian Appler
+@homepageURL    https://github.com/sebastianappler/metager-modern
+@updateURL      https://raw.githubusercontent.com/sebastianappler/metager-modern/metager-modern.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("metager.org") {
+    html {
+        font-size: 4mm;
+    }
+
+    #foki-box {
+        background-color: #131516 !important;
+    }
+    .search-input input {
+        font-size: 18px;
+    }
+
+    #search-key {
+        display: none !important;
+    }
+
+    #resultpage-container {
+        grid-template-columns: calc(10%) calc(80%) calc(10%);
+        grid-template-areas: ". searchbar ." ". foki ." ". results ." ".footer .";
+    }
+    .result:first-child {
+        margin-top: 5px;
+    }
+
+    .result {
+        margin-top: 15px;
+        background-color: #131516 !important;
+        border-color: #131516 !important;
+    }
+
+    .result-link {
+        color: rgb(142, 221, 154);
+    }
+    .result-link:visited {
+        color: rgb(142, 221, 154) !important;
+    }
+
+    .result-link:hover {
+        color: rgb(142, 221, 154) !important;
+        text-decoration: underline !important;
+    }
+
+    .result-title a {
+        font-size: 0.85em !important;
+        color: rgb(119, 182, 255) !important;
+    }
+    .result-title a:visited {
+        color: rgb(200, 91, 255) !important;
+    }
+
+    .result-footer {
+        display: none !important;
+    }
+
+    .result-hoster {
+        display: none;
+    }
+}
