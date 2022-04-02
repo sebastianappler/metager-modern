@@ -1,5 +1,5 @@
 # MetaGer Modern
-A stylus theme to make MetaGer.org look modern search engine.
+A stylus theme to make MetaGer.org look like modern search engines.
 
 ![MetaGer Modern screenshot](https://github.com/sebastianappler/metager-modern/blob/main/metager-modern.png?raw=true)
 
