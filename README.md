@@ -11,7 +11,7 @@ to mimic the design of modern search engines for better readability.
 
 You have to install [Stylus](https://add0n.com/stylus.html) and then click on the install link below.
 
-![https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat](https://raw.githubusercontent.com/sebastianappler/metager-modern/main/metager-modern.user.css)
+[![Install MetaGer Modern](https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat)](https://raw.githubusercontent.com/sebastianappler/metager-modern/main/metager-modern.user.css)
 
 ## License
 
