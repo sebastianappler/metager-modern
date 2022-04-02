@@ -1,4 +1,4 @@
-# Metager Modern
+# MetaGer Modern
 A stylus theme to make MetaGer.org look modern search engine.
 
 The original design makes it hard to effectively scan the search results. This style tries
