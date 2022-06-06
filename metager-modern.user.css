@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           MetaGer Modern
 @namespace      https://github.com/sebastianappler
-@version        1.0.0
+@version        1.1.0
 @description    A stylus theme to make MetaGer.org look like a modern search engine
 @author         Sebastian Appler
 @homepageURL    https://github.com/sebastianappler/metager-modern
@@ -26,7 +26,7 @@
     }
 
     #resultpage-container {
-        grid-template-columns: calc(10%) calc(80%) calc(10%);
+        grid-template-columns: calc(5%) calc(85%) calc(10%);
         grid-template-areas: ". searchbar ." ". foki ." ". results ." ".footer .";
     }
     .result:first-child {
@@ -65,5 +65,20 @@
 
     .result-hoster {
         display: none;
+    }
+
+    @media all and (min-width:0px) and (max-width: 800px) {
+        #resultpage-container {
+            grid-template-columns: calc(100%);
+            grid-template-areas: "searchbar" "foki" "results" "footer";
+        }
+
+        .result:first-child {
+            margin-top: 0px;
+        }
+
+        .result {
+            margin-top: -15px;
+        }
     }
 }
